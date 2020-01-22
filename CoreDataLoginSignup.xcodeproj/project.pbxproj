@@ -16,6 +16,7 @@
 		F051E0A923D1A58C00EA2A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F051E0A723D1A58C00EA2A11 /* LaunchScreen.storyboard */; };
 		F051E0B423D1A58C00EA2A11 /* CoreDataLoginSignupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051E0B323D1A58C00EA2A11 /* CoreDataLoginSignupTests.swift */; };
 		F051E0BF23D1A58D00EA2A11 /* CoreDataLoginSignupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051E0BE23D1A58D00EA2A11 /* CoreDataLoginSignupUITests.swift */; };
+		F051E0CD23D1A99800EA2A11 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051E0CC23D1A99800EA2A11 /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F051E0BA23D1A58D00EA2A11 /* CoreDataLoginSignupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataLoginSignupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F051E0BE23D1A58D00EA2A11 /* CoreDataLoginSignupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLoginSignupUITests.swift; sourceTree = "<group>"; };
 		F051E0C023D1A58D00EA2A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F051E0CC23D1A99800EA2A11 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F051E0A723D1A58C00EA2A11 /* LaunchScreen.storyboard */,
 				F051E0AA23D1A58C00EA2A11 /* Info.plist */,
 				F051E0A223D1A58900EA2A11 /* CoreDataLoginSignup.xcdatamodeld */,
+				F051E0CC23D1A99800EA2A11 /* SignUp.swift */,
 			);
 			path = CoreDataLoginSignup;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				F051E09E23D1A58900EA2A11 /* ViewController.swift in Sources */,
 				F051E09A23D1A58900EA2A11 /* AppDelegate.swift in Sources */,
 				F051E09C23D1A58900EA2A11 /* SceneDelegate.swift in Sources */,
+				F051E0CD23D1A99800EA2A11 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
