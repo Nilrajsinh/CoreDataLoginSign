@@ -37,6 +37,7 @@ class ViewController: UIViewController {
                            print("Success")
                        }
                    }
+                
                } catch let err as NSError {
                    print("Could not, \(err), \(err.localizedDescription)")
                }
@@ -46,6 +47,11 @@ class ViewController: UIViewController {
         
         
         
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as? ViewPage
+        let userData = [Email.text!,Password.text!]
+        vc?.userData2 = userData
     }
     
     

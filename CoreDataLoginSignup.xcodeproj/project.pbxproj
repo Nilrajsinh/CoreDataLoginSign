@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F048926723D988450006DA1C /* ViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048926623D988450006DA1C /* ViewPage.swift */; };
 		F051E09A23D1A58900EA2A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051E09923D1A58900EA2A11 /* AppDelegate.swift */; };
 		F051E09C23D1A58900EA2A11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051E09B23D1A58900EA2A11 /* SceneDelegate.swift */; };
 		F051E09E23D1A58900EA2A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051E09D23D1A58900EA2A11 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F048926623D988450006DA1C /* ViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPage.swift; sourceTree = "<group>"; };
 		F051E09623D1A58900EA2A11 /* CoreDataLoginSignup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLoginSignup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F051E09923D1A58900EA2A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F051E09B23D1A58900EA2A11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				F051E0AA23D1A58C00EA2A11 /* Info.plist */,
 				F051E0A223D1A58900EA2A11 /* CoreDataLoginSignup.xcdatamodeld */,
 				F051E0CC23D1A99800EA2A11 /* SignUp.swift */,
+				F048926623D988450006DA1C /* ViewPage.swift */,
 			);
 			path = CoreDataLoginSignup;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				F051E0A423D1A58900EA2A11 /* CoreDataLoginSignup.xcdatamodeld in Sources */,
 				F051E09E23D1A58900EA2A11 /* ViewController.swift in Sources */,
 				F051E09A23D1A58900EA2A11 /* AppDelegate.swift in Sources */,
+				F048926723D988450006DA1C /* ViewPage.swift in Sources */,
 				F051E09C23D1A58900EA2A11 /* SceneDelegate.swift in Sources */,
 				F051E0CD23D1A99800EA2A11 /* SignUp.swift in Sources */,
 			);
